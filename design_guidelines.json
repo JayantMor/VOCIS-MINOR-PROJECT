@@ -1,0 +1,173 @@
+{
+  "project_name": "VOCIS — AI-Native Customer & Market Intelligence Platform",
+  "theme_strategy": {
+    "default_mode": "dark",
+    "mode_toggle_supported": true,
+    "aesthetic_archetype": "ARCHETYPE 4 + ARCHETYPE 5 Hybrid: Sovereign Intelligence (Deep Obsidian, Architectural Indigo, Tactical Titanium, Signal Emerald/Amber/Rose for Evidence & Trajectory)",
+    "rationale": "VOCIS is a high-stakes intelligence weapon for executives, product leaders, and strategists. A pitch-dark or muddy grey theme feels amateur. Instead, VOCIS employs a deep obsidian architectural palette (#07090e base, #0e121b cards, #182030 borders) infused with cool slate subtleties, razor-sharp 1px titanium edges, and controlled kinetic highlights."
+  },
+  "typography": {
+    "font_family_headlines": "'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif",
+    "font_family_body": "'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif",
+    "font_family_mono": "'JetBrains Mono', 'Fira Code', monospace",
+    "hierarchy": {
+      "h1": "text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight",
+      "h2": "text-2xl sm:text-3xl font-bold tracking-tight text-slate-100",
+      "h3": "text-lg sm:text-xl font-semibold tracking-tight text-slate-200",
+      "h4": "text-base sm:text-lg font-medium text-slate-300",
+      "body_lead": "text-base sm:text-lg text-slate-300 leading-relaxed",
+      "body": "text-sm text-slate-400 leading-normal",
+      "caption": "text-xs font-mono uppercase tracking-[0.16em] text-slate-400",
+      "evidence_quote": "text-sm italic font-normal text-slate-300 border-l-2 border-indigo-500/50 pl-3 py-1"
+    },
+    "rules": [
+      "NEVER use generic Inter or pure black for headings. Use high-tracking Plus Jakarta Sans with tight tracking on big sizes.",
+      "All metric numbers, priority scores, confidence ratios, and timestamps MUST use font-mono for numerical authority.",
+      "Narrative tags (Observation, Context, Evidence, Interpretation, Significance, Implication, Recommended Attention) must use distinct typographic pills with matching high-contrast label badges."
+    ]
+  },
+  "colors": {
+    "canvas": {
+      "bg_primary": "#07090e",
+      "bg_secondary": "#0c0f17",
+      "bg_surface": "#121722",
+      "bg_surface_elevated": "#182030",
+      "bg_surface_overlay": "#1d263a"
+    },
+    "borders": {
+      "subtle": "rgba(255, 255, 255, 0.07)",
+      "medium": "rgba(255, 255, 255, 0.12)",
+      "focus": "#6366f1",
+      "glow": "rgba(99, 102, 241, 0.3)"
+    },
+    "accents": {
+      "indigo_primary": "#6366f1",
+      "indigo_light": "#818cf8",
+      "cyan_signal": "#06b6d4",
+      "emerald_strength": "#10b981",
+      "amber_warning": "#f59e0b",
+      "rose_critical": "#f43f5e",
+      "violet_synthetic": "#8b5cf6"
+    },
+    "narrative_framework_colors": {
+      "observation": { "badge": "bg-blue-500/10 text-blue-400 border-blue-500/30", "border": "border-blue-500/40" },
+      "context": { "badge": "bg-slate-500/10 text-slate-300 border-slate-500/30", "border": "border-slate-500/40" },
+      "evidence": { "badge": "bg-cyan-500/10 text-cyan-400 border-cyan-500/30", "border": "border-cyan-500/40" },
+      "interpretation": { "badge": "bg-indigo-500/10 text-indigo-400 border-indigo-500/30", "border": "border-indigo-500/40" },
+      "significance": { "badge": "bg-purple-500/10 text-purple-400 border-purple-500/30", "border": "border-purple-500/40" },
+      "implication": { "badge": "bg-amber-500/10 text-amber-400 border-amber-500/30", "border": "border-amber-500/40" },
+      "recommended_attention": { "badge": "bg-emerald-500/10 text-emerald-400 border-emerald-500/30", "border": "border-emerald-500/40" }
+    },
+    "forbidden_colors": [
+      "#7351B7",
+      "#1B93A4",
+      "flat pure #000000 backgrounds",
+      "generic rainbow color bars"
+    ]
+  },
+  "layout_and_grids": {
+    "shell_structure": {
+      "type": "Enterprise Left Sidebar + Top Command Bar + Intelligence Workspace Canvas + Right Evidence / Narrative Drawer",
+      "sidebar_width": "w-64 xl:w-72 border-r border-white/10 bg-[#090c13] shrink-0",
+      "topbar_height": "h-16 border-b border-white/10 bg-[#07090e]/80 backdrop-blur-md px-6 flex items-center justify-between sticky top-0 z-30",
+      "content_container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8"
+    },
+    "bento_strategy": "MODE A: TETRIS GRID for Executive Synthesis & Intelligence Hubs. Asymmetric spans with high scannability and immediate drill-down.",
+    "section_layouts": {
+      "executive_overview": "Top Executive Synthesis hero banner (col-span-12) + 3 Primary Signal Cards (col-span-4 each: Most Important Finding, What Changed, Recommended Attention) + Priority Issue Matrix (col-span-8) + Temporal Pulse (col-span-4)",
+      "customer_intelligence": "Theme Semantic Constellation interactive canvas (col-span-7) + Deep Sentiment & Latent Needs breakdown (col-span-5) + Mixed Feedback Dissection table (col-span-12)",
+      "product_intelligence": "Product Strengths vs Friction radar/bars + Feature gap matrix + Per-product narrative cards with evidence links",
+      "competitive_intelligence": "Dynamic Dimension Comparison Matrix (Strong / Medium / Weak pills with hover rationale) + Market Displacement Signals",
+      "market_intelligence": "Web & Market Industry Signals clearly demarcated with 'External Market Intelligence' badge vs 'Customer Feedback Evidence'",
+      "evidence_explorer": "Filter Command Bar (sentiment, themes, intent, severity, product, search) + Density-optimized feedback stream with Quick Quote & Deep Inspector drawer",
+      "strategic_intelligence": "Synthesis & Strategic Horizons + Priority Attention Matrix + Actionable Bets with ROI & Risk projections",
+      "reports": "Professional Intelligence Dossier Generator + Export View (Markdown / PDF Preview) with Executive Summary, Methodology, and Citation Footnotes"
+    }
+  },
+  "visual_enhancers": {
+    "surface_treatment": "Crystal glass headers with backdrop-blur-xl and delicate 1px border-white/10. Cards have a 1px border with layered ambient drop shadows.",
+    "subtle_3d_depth": "Dimensional card tilt on hover (using subtle CSS perspective or Framer Motion rotateX/rotateY under 3 degrees), interactive 2.5D Semantic Constellation nodes using SVG/Canvas with glow filters, depth-layered badges.",
+    "tactical_badges": "High-contrast micro badges with font-mono uppercase labels, status dots with soft breathing glow.",
+    "empty_states": "Graceful degradation when a section lacks data: architectural blueprint icon, clear context explaining what data source is needed, and a 1-click 'Load Sample Industry Benchmark Dataset' CTA."
+  },
+  "motion_and_interactions": {
+    "rules": [
+      "No bouncy spring animations or fast spin cycles. Use controlled bezier cubic-bezier(0.16, 1, 0.3, 1) ease-out.",
+      "Card expansions must use smooth height/opacity transitions (Framer Motion AnimatePresence).",
+      "Drawer slider: slides from right with blur overlay backdrop (z-50).",
+      "Hover states: Subtle translate-y-[-2px] with border-white/25 enhancement.",
+      "Multi-step Upload/Ingestion experience: progressive steps ('Analyzing Schemas', 'Disseminating Semantics', 'Correlating Issues', 'Synthesizing Intelligence') with animated progress bars and live status log."
+    ]
+  },
+  "components_blueprint": {
+    "navigation_sidebar": "/app/frontend/src/components/navigation/Sidebar.js",
+    "top_command_bar": "/app/frontend/src/components/navigation/TopBar.js",
+    "executive_overview": "/app/frontend/src/components/overview/ExecutiveOverview.js",
+    "narrative_insight_card": "/app/frontend/src/components/intelligence/NarrativeInsightCard.js",
+    "semantic_constellation": "/app/frontend/src/components/intelligence/SemanticConstellation.js",
+    "evidence_drawer": "/app/frontend/src/components/intelligence/EvidenceDrawer.js",
+    "upload_dialog": "/app/frontend/src/components/upload/UploadModal.js",
+    "issue_priority_matrix": "/app/frontend/src/components/intelligence/IssuePriorityMatrix.js",
+    "competitive_matrix": "/app/frontend/src/components/competitive/CompetitiveMatrix.js",
+    "market_intelligence_view": "/app/frontend/src/components/market/MarketIntelligenceView.js",
+    "evidence_explorer": "/app/frontend/src/components/evidence/EvidenceExplorer.js",
+    "strategic_intelligence": "/app/frontend/src/components/strategic/StrategicIntelligence.js",
+    "reports_view": "/app/frontend/src/components/reports/ReportsView.js",
+    "auth_modal": "/app/frontend/src/components/auth/AuthModal.js"
+  },
+  "image_urls": [
+    {
+      "category": "Hero / Abstract Intelligence Backgrounds",
+      "url": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MDV8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBhYnN0cmFjdCUyMGRhcmslMjBkYXRhJTIwaW50ZWxsaWdlbmNlfGVufDB8fHx8MTc4OTAzMjI1MXww&ixlib=rb-4.1.0&q=85",
+      "description": "Deep obsidian constellation mesh with cyan nodes for semantic network backdrops",
+      "usage": "Use as a low-opacity (max 15%) ambient background texture in the Executive Overview banner and Constellation widget"
+    },
+    {
+      "category": "Abstract Wave & Signal Intelligence",
+      "url": "https://images.unsplash.com/photo-1758073519996-6d3c63b4922c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MDV8MHwxfHNlYXJjaHwyfHxjb3Jwb3JhdGUlMjBhYnN0cmFjdCUyMGRhcmslMjBkYXRhJTIwaW50ZWxsaWdlbmNlfGVufDB8fHx8MTc4OTAzMjI1MXww&ixlib=rb-4.1.0&q=85",
+      "description": "Digital wave pattern representing high-frequency customer signals and sentiment waves",
+      "usage": "Use in upload processing hero card and reports cover background with gradient masking"
+    },
+    {
+      "category": "Corporate Executive Environment",
+      "url": "https://images.unsplash.com/photo-1763739527737-e3626d731072?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGNvcnBvcmF0ZSUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzg5MDMyMjU3fDA&ixlib=rb-4.1.0&q=85",
+      "description": "Clean executive boardroom desk with high-end device setup",
+      "usage": "Use in Reports export dossier preview header and Company Workspace settings"
+    }
+  ],
+  "testing_attributes": {
+    "rule": "Every interactive element, tab, filter, button, metric card, and modal trigger MUST have a distinct data-testid.",
+    "examples": [
+      "data-testid='sidebar-nav-overview'",
+      "data-testid='sidebar-nav-customer'",
+      "data-testid='sidebar-nav-product'",
+      "data-testid='sidebar-nav-competitive'",
+      "data-testid='sidebar-nav-market'",
+      "data-testid='sidebar-nav-evidence'",
+      "data-testid='sidebar-nav-strategic'",
+      "data-testid='sidebar-nav-reports'",
+      "data-testid='upload-dataset-button'",
+      "data-testid='upload-dropzone'",
+      "data-testid='view-evidence-drawer-button'",
+      "data-testid='close-evidence-drawer'",
+      "data-testid='deep-intelligence-expand-btn'",
+      "data-testid='filter-sentiment-select'",
+      "data-testid='filter-theme-pill'",
+      "data-testid='report-export-pdf-button'",
+      "data-testid='workspace-switcher-dropdown'"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Build VOCIS using React with Tailwind and Lucide-React / Radix components.",
+    "Implement the two levels of information in every intelligence section: 'Quick Intelligence' (crisp KPI badges, urgency meters, high-contrast summaries) and 'Deep Intelligence' (full narrative chain: Observation -> Context -> Evidence -> Interpretation -> Significance -> Implication -> Recommended Attention).",
+    "Ensure the Evidence Drawer can slide out from any insight card when clicking 'View Evidence (N citations)', displaying verbatim customer reviews with highlights, sentiment badges, customer segment, and timestamps.",
+    "Provide high quality pre-loaded mock datasets (e.g. Enterprise Cloud ERP, B2B SaaS Workflow, FinTech Mobile App) with instant toggle, while enabling a real CSV upload pipeline with schema recognition, simulated AI clustering, and stateful ingestion.",
+    "Provide responsive desktop & tablet layout with sticky sidebar and fluid scroll areas. Avoid any pure white blinding cards in dark mode."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": {
+    "anti_ai_slop": "Never use rainbow gradients, 100% border radiuses on massive cards, or excessive decorative emojis. Use architectural 1px borders, subtle slate glows, and font-mono data tags.",
+    "color_contrast": "Ensure all text against dark surfaces is minimum text-slate-300 or text-white for headlines, and text-slate-400 for secondary body.",
+    "dropdown_rule": "NEVER use transparent backgrounds for dropdowns, popovers, or drawers. Always use solid or heavy backdrop-blur (#0f141f / #151b29).",
+    "performance": "Render semantic nodes and lists with React memoization and clean subgrid or flex structures."
+  }
+}
